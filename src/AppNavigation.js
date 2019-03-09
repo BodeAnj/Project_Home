@@ -16,6 +16,7 @@ const HomeNavigator = createStackNavigator({
 
  const Navigator = createBottomTabNavigator({
     //  Home :{ screen:HomeNavigator },
+    
     Home:{screen:Home},
      Welcome: {screen:Welcome},
      Settings: {screen:Settings},
